@@ -1,0 +1,17 @@
+name: "node js pipeline"
+
+on:
+    push:
+        branches:
+            - master
+            - main
+
+jobs:
+    built-and-test:
+        runs-on: ubuntu-latest
+
+
+    steps:
+        - name: "setup a node js"
+          uses: actions/checkout@v4
+
