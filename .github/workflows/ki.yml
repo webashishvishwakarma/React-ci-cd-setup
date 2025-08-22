@@ -23,7 +23,7 @@ jobs:
       - name: "Install dependencies"
         run: npm install
 
-      - name: "Run app"
-        run: node index.js
+      ##- name: "Run app"
+       ## run: npm start
       - name: "check the node version"
         run: node --version
